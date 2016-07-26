@@ -1,0 +1,145 @@
+body {
+  position:relative !important;
+  margin-top:60px;
+}
+.project a {
+  color:#ff3030;
+  text-decoration:none;
+}
+
+.active {
+  border-bottom:5px solid #ff3030;
+}
+
+.navbar a {
+  background-color:#fff !important;
+}
+
+.navbar {
+  background-color:#fff;
+  border-bottom:0px solid #9E0000;
+  box-shadow: 0 0px 0px #333;
+  border-radius:0;
+}
+
+.navbar-nav li {
+  margin: 0 15px;
+}
+
+.navbar-nav li a {
+  color:;
+  padding-bottom:10px;
+}
+
+#portfolio {
+  background-color:#333;
+  height:auto;
+  width:100%;
+  padding:10px;
+  margin-top:30px;
+}
+
+#portfolio h2 {
+  color:white;
+}
+
+.project-row {
+  margin-bottom:20px;
+}
+
+.project {
+  min-height:350px;
+}
+
+#profile {
+  border-left:8px solid #ff3030;
+
+}
+
+.footer {
+  background-color:#333;
+  padding-top:10px;
+  border-top:1px solid darkgray;
+
+  color:white;
+}
+
+.active-tab {
+  border-bottom:5px solid white;
+
+}
+
+#repeat-sign {
+  width:40px;
+  margin-top:-52px;
+  margin-right:6px;
+  position:relative;
+  display:inline-block;
+
+}
+
+#right-brace {
+  color:#333;
+  font-size:70px;
+  top:-13px;
+  margin-left:13px;
+  position:relative;
+  display:inline-block;
+}
+
+#twitter-button:hover {
+  color:white;
+  background-color:#00aced;
+  transition:0.2s;
+}
+#facebook-button:hover {
+  color:white;
+  background-color:#3b5998;
+  transition:0.2s;
+}
+#linkedin-button:hover {
+  color:white;
+  background-color:#007bb6;
+  transition:0.2s;
+}
+#github-button:hover {
+  color:white;
+  background-color:#4183c4;
+  transition:0.2s;
+}
+.btn-group .btn i {
+  margin-right:5px;
+}
+
+.btn-group .btn span {
+  position:relative;
+  top:90%;
+  display:block;
+}
+
+.btn-group .btn {
+  height:250px;
+  position:relative;
+}
+
+.btn-group {
+  position:relative;
+  margin:0 0 80px;
+  box-shadow:0 5px 5px #eee;
+}
+
+.black-key {
+  position:absolute;
+  width:40px;
+  left:-21px;
+  top:0;
+  height:155px;
+  background-color:#111;
+  border-radius:5px;
+  z-index:1000;
+  box-shadow: 0 2px 2px #444;
+
+}
+
+#contact-form {
+}
