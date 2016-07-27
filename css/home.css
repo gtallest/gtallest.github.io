@@ -1,6 +1,15 @@
 body {
   position:relative !important;
   margin-top:60px;
+  font-family:'Roboto';
+}
+h1 {
+  color:#ff3030;
+  font-family:'Headland One', serif;
+  font-weight:bold;
+}
+h2 {
+  font-family:'Headland One', serif;
 }
 .project a {
   color:#ff3030;
@@ -8,7 +17,8 @@ body {
 }
 
 .active {
-  border-bottom:5px solid #ff3030;
+  border-bottom:3px solid #ff3030;
+  font-weight:bold;
 }
 
 .navbar a {
@@ -20,6 +30,7 @@ body {
   border-bottom:0px solid #9E0000;
   box-shadow: 0 0px 0px #333;
   border-radius:0;
+  min-height:41px;
 }
 
 .navbar-nav li {
@@ -28,7 +39,7 @@ body {
 
 .navbar-nav li a {
   color:;
-  padding-bottom:10px;
+  padding-bottom:3px;
 }
 
 #portfolio {
@@ -52,7 +63,7 @@ body {
 }
 
 #profile {
-  border-left:8px solid #ff3030;
+  border-left:3px solid #ff3030;
 
 }
 
@@ -68,18 +79,41 @@ body {
   border-bottom:5px solid white;
 
 }
+#repeat {
+  height: 22px;
+  width: 74px;
+  background: #333;
+  opacity:0.38;
+  border-bottom: 10px double white;
+  transform: rotate(-90deg);
+  display: inline-block;
+  top: 50px;
+  position: relative;
+  margin-left:-22px;
+  margin-right:-5px;
+}
+#repeat::after{
+  content:'..';
+  color:#333;
+  position:relative;
+  top:-58px;
+  left:px;
+  font-size:90px;
+  text-align:center;
+  font-family:Garamond;
+}
 
-#repeat-sign {
+/*#repeat-sign {
   width:40px;
   margin-top:-52px;
   margin-right:6px;
   position:relative;
   display:inline-block;
-
-}
+}*/
 
 #right-brace {
   color:#333;
+  opacity:0.38;
   font-size:70px;
   top:-13px;
   margin-left:13px;
@@ -107,6 +141,21 @@ body {
   background-color:#4183c4;
   transition:0.2s;
 }
+#instagram-button:hover {
+  color:white;
+  background-color:#517fa4;
+  transition:0.2s;
+}
+#soundcloud-button:hover {
+  color:white;
+  background-color:#f80;
+  transition:0.2s;
+}
+#backloggery-button:hover {
+  color:white;
+  background-color:#1d1d1d;
+  transition:0.2s;
+}
 .btn-group .btn i {
   margin-right:5px;
 }
@@ -120,11 +169,12 @@ body {
 .btn-group .btn {
   height:250px;
   position:relative;
+  max-width:100px;
 }
 
 .btn-group {
   position:relative;
-  margin:0 0 80px;
+  margin:80px 0 80px;
   box-shadow:0 5px 5px #eee;
 }
 
