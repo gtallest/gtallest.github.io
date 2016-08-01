@@ -316,4 +316,12 @@ h2 {
   #connect i {
     font-size:24px !important;
   }
+  h1 {
+    font-size:32px !important;
+  }
+  #repeat {
+    top:51px !important;
+    width:70px !important;
+  }
+
 }
