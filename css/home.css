@@ -42,6 +42,11 @@ h2 {
   padding-bottom:3px;
 }
 
+.navbar-default .navbar-collapse {
+    border-style: hidden !important;
+  }
+  
+
 #portfolio {
   background-color:#333;
   height:auto;
@@ -263,7 +268,6 @@ h2 {
     margin:0 auto !important;
     border-left:0;
     border-top:3px solid #ff3030;
-    border-bottom:3px solid #ff3030;
   }
   #home .row p,
   #home .row h4,
@@ -323,7 +327,7 @@ h2 {
     font-size:30px !important;
   }
   #repeat {
-    top:54px !important;
+    top:55px !important;
     width:68px !important;
   }
   #right-brace {
