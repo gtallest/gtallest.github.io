@@ -261,6 +261,9 @@ h2 {
   }
   #profile {
     margin:0 auto !important;
+    border-left:0;
+    border-top:3px solid #ff3030;
+    border-bottom:3px solid #ff3030;
   }
   #home .row p,
   #home .row h4,
@@ -317,11 +320,15 @@ h2 {
     font-size:24px !important;
   }
   h1 {
-    font-size:32px !important;
+    font-size:30px !important;
   }
   #repeat {
-    top:51px !important;
-    width:70px !important;
+    top:54px !important;
+    width:68px !important;
+  }
+  #right-brace {
+    top:-6px !important;
+    font-size:68px !important;
   }
 
 }
