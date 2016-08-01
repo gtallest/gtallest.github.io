@@ -54,12 +54,56 @@ h2 {
   color:white;
 }
 
+#portfolio h4 {
+  background:rgba(255,48,48,0.78);
+  color:white;
+  text-align:center;
+}
+
 .project-row {
   margin-bottom:20px;
 }
 
 .project {
-  min-height:350px;
+  min-height:400px;
+}
+.project p {
+  margin-top: 10px;
+  border-left: 5px solid rgba(255,48,48,0.78);
+  padding-left: 8px;
+}
+
+.project img {
+  height:200px !important;
+  width:100% !important;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  transition:0.5s;
+}
+
+.project img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  transition:0.5s;
+}
+
+.project-date {
+  margin-left:5px;
+  font-size:10px;
+  color:gray;
+  text-decoration:underline;
+  font-style:italic;
+}
+.project-tech {
+  margin-left:5px;
+  font-size:12px;
+  color:gray;
+}
+.project-date i,
+.project-tech i {
+  margin-right:5px;
+  font-size:14px;
 }
 
 #profile {
@@ -73,6 +117,10 @@ h2 {
   border-top:1px solid darkgray;
 
   color:white;
+}
+.footer a {
+  color:white;
+  text-decoration:none;
 }
 
 .active-tab {
@@ -115,10 +163,14 @@ h2 {
   color:#333;
   opacity:0.38;
   font-size:70px;
-  top:-13px;
+  top:-10px;
   margin-left:13px;
   position:relative;
   display:inline-block;
+}
+
+.key-name {
+  display:inline-block !important;
 }
 
 #twitter-button:hover {
@@ -145,6 +197,12 @@ h2 {
   color:white;
   background-color:#517fa4;
   transition:0.2s;
+}
+#soundcloud-button {
+  padding-left:6px !important;
+}
+#soundcloud-button span{
+  margin-left:-3px;
 }
 #soundcloud-button:hover {
   color:white;
@@ -192,4 +250,70 @@ h2 {
 }
 
 #contact-form {
+}
+
+
+/*Responsive*/
+@media only screen and (max-width:993px){
+  .project img {
+    width:auto !important;
+    height:auto !important;
+  }
+  #profile {
+    margin:0 auto !important;
+  }
+  #home .row p,
+  #home .row h4,
+  #home .row ul {
+    text-align:center !important;
+  }
+  #home .row ul {
+    padding-left:0 !important;
+  }
+}
+
+@media only screen and (max-width:768px){
+  .nav {
+    text-align:right;
+  }
+  .nav > li {
+    display:inline-block;
+  }
+}
+
+@media only screen and (max-width:678px){
+  .btn-group .btn{
+    min-width:70px !important;
+  }
+  .key-name{
+    display:none !important;
+  }
+  #connect i {
+    font-size:24px !important;
+  }
+  .btn-group .btn i {
+    margin-right:0px !important;
+  }
+  .black-key {
+    width:35px !important;
+  }
+  #soundcloud-button {
+    padding-left:12px !important;
+    max-width:50px !important;
+  }
+}
+@media only screen and (max-width:531px){
+  .btn-group .btn{
+    min-width:50px !important;
+    height:205px !important;
+    padding-bottom:20px !important;
+  }
+  .black-key {
+    width:30px !important;
+    left:-17px !important;
+    height:125px !important;
+  }
+  #connect i {
+    font-size:24px !important;
+  }
 }
