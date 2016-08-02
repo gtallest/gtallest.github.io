@@ -45,7 +45,7 @@ h2 {
 .navbar-default .navbar-collapse {
     border-style: hidden !important;
   }
-  
+
 
 #portfolio {
   background-color:#333;
@@ -63,6 +63,8 @@ h2 {
   background:rgba(255,48,48,0.78);
   color:white;
   text-align:center;
+  border-bottom:8px double whitesmoke;
+  padding-top:3px;
 }
 
 .project-row {
@@ -203,7 +205,8 @@ h2 {
   background-color:#517fa4;
   transition:0.2s;
 }
-#soundcloud-button {
+#soundcloud-button,
+#backloggery-button {
   padding-left:6px !important;
 }
 #soundcloud-button span{
@@ -218,6 +221,10 @@ h2 {
   color:white;
   background-color:#1d1d1d;
   transition:0.2s;
+}
+#backloggery-button .key-name {
+  letter-spacing:-0.5px;
+  margin-left:-3px;
 }
 .btn-group .btn i {
   margin-right:5px;
@@ -304,9 +311,14 @@ h2 {
   .black-key {
     width:35px !important;
   }
-  #soundcloud-button {
+  #soundcloud-button,
+  #backloggery-button {
     padding-left:12px !important;
-    max-width:50px !important;
+  }
+  .project img {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+
   }
 }
 @media only screen and (max-width:531px){
@@ -334,5 +346,10 @@ h2 {
     top:-6px !important;
     font-size:68px !important;
   }
-
+  #soundcloud-button {
+    max-width:50px !important;
+  }
+  .navbar.navbar-default.navbar-fixed-top {
+    max-height:44px !important;
+  }
 }
