@@ -54,6 +54,17 @@ h2 {
   padding:10px;
   margin-top:30px;
 }
+#music {
+  background-color:#ff3030;
+  background-image:url('http://i.imgur.com/X3EeGIT.png');
+  background-blend-mode: hard-light;
+  text-shadow:2px 2px 5px #000;
+  width:100%;
+  height:9em;
+  padding:10px;
+  color:white;
+}
+
 
 #portfolio h2 {
   color:white;
@@ -79,10 +90,11 @@ h2 {
   border-left: 5px solid rgba(255,48,48,0.78);
   padding-left: 8px;
 }
-
 .project img {
   height:200px !important;
   width:100% !important;
+}
+.project img {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
@@ -244,7 +256,7 @@ h2 {
 
 .btn-group {
   position:relative;
-  margin:80px 0 80px;
+  margin:40px 0 80px;
   box-shadow:0 5px 5px #eee;
 }
 
@@ -259,6 +271,15 @@ h2 {
   z-index:1000;
   box-shadow: 0 2px 2px #444;
 
+}
+#other-connect {
+  margin-top:-50px;
+  font-size:24px;
+}
+#other-connect a {
+  font-size:20px;
+  color:#ff3030;
+  font-weight:bold;
 }
 
 #contact-form {
@@ -351,5 +372,8 @@ h2 {
   }
   .navbar.navbar-default.navbar-fixed-top {
     max-height:44px !important;
+  }
+  #other-connect a {
+    font-size:18px;
   }
 }
