@@ -282,7 +282,9 @@ h2 {
   font-weight:bold;
 }
 
-#contact-form {
+.contact-email,
+.contact-email:hover {
+  color:#ff3030;
 }
 
 
