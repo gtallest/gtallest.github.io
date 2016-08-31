@@ -379,3 +379,33 @@ h2 {
     font-size:16px;
   }
 }
+@media only screen and (max-width:350px){
+  #repeat {
+    margin-left: -8% !important;
+  }
+  h1 {
+    font-size:28px !important;
+  }
+  .btn-group .btn {
+    max-width:40px !important;
+    min-width:10px !important;
+  }
+  #backloggery-button {
+    padding-left:6px !important;
+  }
+  .black-key {
+    width: 25px !important;
+    left: -13px !important;
+  }
+  #instagram-button {
+    padding-left:9px !important;
+  }
+  #github-button,
+  #linkedin-button,
+  #twitter-button {
+    padding-left:10px !important;
+  }
+  #facebook-button {
+    padding-left:11px !important;
+  }
+}
